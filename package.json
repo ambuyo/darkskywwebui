@@ -1,0 +1,24 @@
+{
+  "name": "darksky-weather-api",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "ejs": "^3.0.1",
+    "express": "4.1.0",
+    "mongoose": "3.6.5",
+    "path": "^0.12.7",
+    "unirest": "^0.6.0"
+  },
+  "version": "1.0.0",
+  "description": "fetch weather data",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "darksky"
+  ],
+  "author": "victor ambuyo",
+  "license": "ISC"
+}
